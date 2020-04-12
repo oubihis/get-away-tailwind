@@ -1,0 +1,18 @@
+{
+  "name": "get-away-tailwind",
+  "version": "1.0.0",
+  "description": "Get-away is beautiful extension for TailwindCSS, for kick your project it is free and open source.",
+  "scripts": {
+    "build": "postcss src/assets/css/tailwind.css -o public/asstes/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "oubihis",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0"
+  }
+}
